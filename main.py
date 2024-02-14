@@ -1,15 +1,12 @@
 import pytesseract
 from PIL import Image,ImageFilter
-# import numpy as np
-# import cv2
 import re
 import sqlite3
 from base64 import b64encode
 from io import BytesIO
 from PIL import Image
 import streamlit as st
-import numpy as np
-import cv2
+
 
 
 SQL_DB_PATH = "business_cards.db"
